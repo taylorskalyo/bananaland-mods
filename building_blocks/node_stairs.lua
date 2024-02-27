@@ -48,6 +48,7 @@ building_blocks_stairs("building_blocks:grate", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
+	use_texture_alpha = "clip",
 	groups = {cracky=1},
 	sounds = default.node_sound_metal_defaults(),
 })
@@ -60,6 +61,7 @@ building_blocks_stairs("building_blocks:smoothglass", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
+	use_texture_alpha = "clip",
 	groups = {snappy=3,cracky=3,oddly_breakable_by_hand=3},
 	sounds = default.node_sound_glass_defaults(),
 })
@@ -72,6 +74,7 @@ building_blocks_stairs("building_blocks:woodglass", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
+	use_texture_alpha = "clip",
 	groups = {snappy=3,cracky=3,oddly_breakable_by_hand=3},
 	sounds = default.node_sound_glass_defaults(),
 })
